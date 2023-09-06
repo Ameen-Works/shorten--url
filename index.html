@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Url Shortener</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>Why so long.....!</h1>
+      </div>
+      <div class="description">
+        <p>
+          &lt;---Kindly place your url below, we will eat and digest the
+          request, get a energetic response---&gt;
+        </p>
+      </div>
+      <div class="url-input-block">
+        <form id="urlForm" class="url-input-block">
+          <input
+            type="text"
+            class="url-input-block input"
+            id="urlInput"
+            placeholder="Enter 'URL' to shorten"
+            size="32"
+          />
+          <div>
+            <button type="submit" class="url-input-block submit">
+              Shorten
+            </button>
+          </div>
+        </form>
+      </div>
+      <div id="shortenedUrlResult"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
